@@ -18,3 +18,44 @@
     --h2-font: 3.5rem;
     --p-font: 1.1rem;
 }
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 25px 10%;
+    transition: all .40 ease;
+}
+
+.menu {
+    font-size: 2.5rem;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 25px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+}
+
+.navbar a:hover{
+    color: var(--text-color);
+    background: var(--main-color);
+}
