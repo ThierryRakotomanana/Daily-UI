@@ -10,7 +10,7 @@ This project aims to provide a platform for practicing and honing your CSS skill
 
 1. Clone this repository to your local machine.
    ```shell
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/ThierryRakotomanana/Daily-UI/tree/master
 
 2. Navigate to the project directory.
     ```shell
