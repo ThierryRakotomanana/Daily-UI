@@ -35,10 +35,14 @@ header {
     background-color: transparent;
     padding: 25px 10%;
     transition: all .40 ease;
+    z-index: 1000;
 }
 
 .menu {
     font-size: 2.5rem;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
 }
 
 .navbar {
@@ -58,4 +62,8 @@ header {
 .navbar a:hover{
     color: var(--text-color);
     background: var(--main-color);
+}
+
+section{
+    padding: 150px 15% 90px;
 }
