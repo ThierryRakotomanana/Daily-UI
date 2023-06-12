@@ -103,7 +103,9 @@ span {
 
 .description p{
     font-size: var(--p-font);
+    font-weight: 500;
     margin-bottom: 20px;
+    letter-spacing: normal;
 }
 
 .btn-container{
@@ -119,6 +121,7 @@ span {
     padding-block: 10px;
     background: var(--text-color);
     border-radius: 0.5rem;
+    transition: all .40 ease;
 }
 
 .btn-container .btn.one{
