@@ -117,21 +117,39 @@ span {
 }
 
 .btn-container .btn{
-    padding-inline: 25px;
+    font-weight: 700;
+    padding-inline: 30px;
     padding-block: 10px;
-    background: var(--text-color);
     border-radius: 0.5rem;
-    transition: all .40 ease;
+    transition: all .40s ease;
+}
+
+.btn-container .btn:hover{
+    transform: scale(1.1) translateY(-5px);
 }
 
 .btn-container .btn.one{
     background: var(--main-color);
     color: var(--text-color);
+    border: 1px solid var(--main-color);
 }
 
 .btn-container .btn.two{
     background: var(--text-color);
     color: #020312;
+    border: 1px solid var(--main-color);
+}
+
+.btn-container .btn.one:hover{
+    background: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--text-color);
+}
+
+.btn-container .btn.two:hover{
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
 }
 
 .home > img{
