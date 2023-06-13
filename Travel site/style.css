@@ -78,7 +78,7 @@ header {
 }
 
 section{
-    padding: 150px 15% 90px;
+    padding: 150px 10% 75px;
 }
 
 .home{
@@ -115,6 +115,7 @@ span {
 }
 
 p{
+    width: auto;
     color: var(--second-color);
     font-size: var(--p-font);
     font-weight: 500;
@@ -131,6 +132,7 @@ p{
 }
 
 .btn{
+    display: inline-block;
     font-weight: 700;
     padding-inline: 30px;
     padding-block: 10px;
@@ -167,6 +169,36 @@ p{
 }
 
 .home > img{
-    width: 50%;
+    width: auto;
     border-radius: 0.5rem;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-text h2{ 
+    font-size: var(--h2-font);
+}
+
+.about-text h4{
+    color: #eb4a4a;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.about-gri{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repat(2, 1fr);
+    gap: 25px;
+    margin-block-end: 50px;
+}
+
+.about-in h5{
+    font-size: var(--p-font);
+    font-weight: 800;
 }
