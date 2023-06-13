@@ -110,7 +110,7 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 5. Open a pull request and describe your modifications.
 Go to your Github account and navigate to your repository forked. Noticed you see a green button named Pull Request, click on it and send. After describes the change you made.
 
-Community contributions are highly appreciated, so thanks for your contributing.
+Community contributions are highly appreciated, so thanks for your contribution.
 
 ## License
 
