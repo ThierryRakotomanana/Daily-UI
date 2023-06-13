@@ -114,7 +114,8 @@ span {
     font-size: large;
 }
 
-.description p{
+p{
+    color: var(--second-color);
     font-size: var(--p-font);
     font-weight: 500;
     margin-bottom: 20px;
