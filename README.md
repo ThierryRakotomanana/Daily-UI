@@ -57,13 +57,13 @@ cd "Daily-UI"
 
 Now create a branch using the `git switch` command:
 
-```
+```shell
 git switch -c your-new-branch-name
 ```
 
 For example:
 
-```
+```shell
 git switch -c aza-manao-copie-coller-loatra-fa-tsss
 ```
 
@@ -108,6 +108,7 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 </details>
 
 5. Open a pull request and describe your modifications.
+Go to your Github account and navigate to your repository forked. Noticed you see a green button named Pull Request, click on it and send. After describes the change you made.
 
 Community contributions are highly appreciated, so thanks for your contributing.
 
