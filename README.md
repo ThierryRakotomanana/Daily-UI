@@ -1,6 +1,6 @@
 # CSS Practice Project
 
-> Practice your CSS and framework styling skills to enhance your comfort level in building UI.
+> Practice your CSS and framework styling to enhance your comfort level in building UI.
 
 ## Overview
 
