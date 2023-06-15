@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'Blablavla';
+    font-weight: 400;
+    src: url('../../src/assets/fonts/')
+         url('../../src/assets/fonts/');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
