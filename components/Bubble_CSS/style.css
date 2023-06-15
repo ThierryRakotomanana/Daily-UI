@@ -5,8 +5,34 @@
          url('../../src/assets/fonts/');
 }
 
+:root{
+    --gr-one : #23494A ;
+    --gr-two : #BFFFC7 ;
+    --gr-three : #FF9C60 ;
+    --gr-four : #FFD6B8 ;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, var(--gr-one) 0%,var(--gr-two) 100%);
+}
+
+.wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+.bubble{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    border: 2px solid rgba(255, 234, 178, 0.3);
+    background: linear-gradient(90deg, var(--gr-three) 0%,var(--gr-four) 100%);
 }
