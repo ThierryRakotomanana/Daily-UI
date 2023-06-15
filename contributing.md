@@ -20,6 +20,6 @@ If you'd like to suggest a change in, please [raise an issue](https://github.com
 
 ## Usefull ressource
 
-[] : list of css tutorials
-[] : VsCode shortcut to enhance your productivity
-[] : using unicode for some icons
+[] : list of css tutorials.<br>
+[] : VsCode shortcut to enhance your productivity.<br>
+[] : using unicode for some icons.<br>
