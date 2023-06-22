@@ -69,7 +69,6 @@ body{
 
 .bubble::after{
     content: "";
-
     width: 350px;
     height: 350px;
     position: absolute;
