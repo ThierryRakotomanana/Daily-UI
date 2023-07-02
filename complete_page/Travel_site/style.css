@@ -47,8 +47,13 @@ header {
 }
 
 #logo{
-    color: var(--main-color);
-    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 125px;
 }
 
 .menu {
