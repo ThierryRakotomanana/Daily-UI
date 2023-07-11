@@ -20,100 +20,36 @@
 }
 
 body{
-    background: linear-gradient(90deg, var(--gr-one) 0%,var(--gr-two) 100%);
+    background: radial-gradient(var(--gr-one), var(--gr-two));
 }
 
 .wrapper{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
 .bubble{
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: calc(50% - 250px);
-    left: calc(50% - 250px);
-    border: 2px solid rgba(255, 234, 178, 0.3);
-    border-radius: 20% 80% 42% 58% / 39% 32% 68% 61% ;
-    background: linear-gradient(90deg, var(--gr-three) 0%,var(--gr-four) 100%);
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-    animation: bubble ease-in-out 10s infinite;
+    background: url(../../src/assets/img/travel/aurora.jpg);
+    -webkit-background-size : cover;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 450px;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 5s linear infinite;
+    transition: all 1s ease-in-out;
 }
 
-.bubble::before{
-    content: "";
-
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    border-radius: 50%;
-    background-color: black;
-    border: 2px solid rgba(255, 234, 178, 0.5);
-}
-
-.bubble::before::before{
-    content: "";
-
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    border-radius: 50%;
-    background-color: green;
-    border: 2px solid rgba(255, 234, 178, 0.5);
-}
-
-.bubble::after{
-    content: "";
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    border-radius: 50%;
-    border: 2px solid rgba(255, 234, 178, 0.3);
-    background: blue;
-}
-
-@keyframes bubble {
+@keyframes animate {
     from {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 45deg;
-    }
-    12.5% {
-        border-radius: 33% 67% 35% 65% / 61% 25% 75% 39% ;
-        rotate: 90deg;
-    }
-    25% {
-        border-radius: 67% 33% 47% 53% / 29% 52% 48% 71% ;
-        rotate: 90deg;
-    }
-    37.5% {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 135deg;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% ;
     }
     50% {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 180deg;
-    }
-    62.5% {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 225deg;
-    }
-    75% {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 270deg;
-    }
-    87.5% {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 315deg;
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60% ;
     }
     to {
-        border-radius: 84% 16% 37% 63% / 33% 52% 48% 67% ;
-        rotate: 360deg;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% ;
     }
 }
