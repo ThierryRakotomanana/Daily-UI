@@ -26,8 +26,8 @@
     --p-font: 1rem;
 }
 
-body {
-    background: var(--bg-color);
+body {  
+    background: url(../../src/assets/img/travel/dian-yu.jpg);
     color: var(--text-color);
 }
 
@@ -85,12 +85,16 @@ header > a > img {
 section{
     padding: 150px 10% 75px;
 }
+section > div {
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 10px;
+}
 
 .home{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url(../../src/assets/img/travel/dian-yu.jpg);
     background-position: center;
     display: flex;
     align-items: center;
